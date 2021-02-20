@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
   private WPI_TalonSRX leftSlave = new WPI_TalonSRX(8);
   private WPI_TalonSRX rightSlave = new WPI_TalonSRX(5);
 
-  private Joystick joy1 = new Joystick(0);
+  private Joystick joy1 = new Joystick(3);
 
   private Encoder encoder = new Encoder(0, 1, false, EncodingType.k4X);
   private final double kDriveTick2Feet = 1.0 / 256.0 * 6 * Math.PI / 12;
